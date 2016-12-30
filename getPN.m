@@ -7,8 +7,8 @@
 % 可以实现前后延迟，自动补齐，简直完美
 function pn=getPN(pnArray,signalFreq,sampleFreq,delayTime)
     % pnArray 生成的伪随机数组
-    % frequency 信号频率
-    % minTime 最小时间间隔,采样频率的倒数
+    % signalFreq 码片变化的频率
+    % sampleFreq 生成信号的评论
     % delayTime 延迟时间呗
     
 %     if 2*signalFreq>sampleFreq
