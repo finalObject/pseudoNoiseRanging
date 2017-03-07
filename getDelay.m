@@ -51,7 +51,7 @@ function result=getDelay(source,sample,signalFreq,sampleFreq,k,b)
         shiftTime=result/(1/sampleFreq);
         detailShift=integrate(source,sample,round(shift+shiftTime));   
     end
-    fprintf('%d-%f\n',shiftBit,result);
+    fprintf('In getDelay shiftBit:%d,timeInBit%f\n',shiftBit,result);
     result=result+shiftBit/signalFreq;
     
 

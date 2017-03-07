@@ -3,7 +3,7 @@ clear;clc;
 k=-1.035156250000001e+02;b=1;
 signalFreq=100;%这里的频率是码片变化的频率
 sampleFreq=10000;
-signalSize=1024;%整个信号长度是1s
+signalSize=1024;%整个信号长度是10.24s
 pna=getPNArray(signalSize,124124);
 pn1=getPN(pna,signalFreq,sampleFreq,0);
 pn2=getPN(pna,signalFreq,sampleFreq,0.001);
