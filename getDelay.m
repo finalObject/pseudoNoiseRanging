@@ -62,5 +62,4 @@ function result=getDelay(source,sample,signalFreq,sampleFreq,k,b)
 %     end
     
 %     result=shiftBit+detail;
-fprintf('\n');
 end
