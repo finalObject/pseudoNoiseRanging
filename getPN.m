@@ -19,7 +19,7 @@ function pn=getPN(pnArray,signalFreq,sampleFreq,delayTime)
     delayNumber=round(delayTime/minTime);
     signalNumber=length(pnArray);
     signalLength=(1/signalFreq)/minTime;
-    totalLength = signalLength*signalNumber;
+    totalLength = round(signalLength*signalNumber);
     pn=zeros(1,totalLength);
     
     
